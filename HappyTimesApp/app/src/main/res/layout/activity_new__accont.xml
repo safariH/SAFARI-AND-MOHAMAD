@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    tools:context="com.example.hilary.happytimesapp.New_AccontActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to the sign up"
+        android:textSize="40dp"
+        android:paddingTop="30dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/colorAccent"/>
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Enter Your Name"
+        android:paddingTop="30dp"
+        android:paddingLeft="30dp"
+         />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:paddingLeft="30dp"
+        android:inputType="textPassword"
+        android:hint="Enter Your Password"/>
+
+    <EditText
+        android:id="@+id/Cpassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:paddingLeft="30dp"
+        android:inputType="textPassword"
+        android:hint="Confirm your Password"/>
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:paddingLeft="30dp"
+        android:inputType="phone"
+        android:hint="Enter your Phone number"/>
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="20dp"
+        android:paddingLeft="30dp"
+        android:inputType="textEmailAddress"
+        android:hint="Enter your Email"/>
+
+    <Button
+        android:id="@+id/submit"
+        android:paddingTop="20dp"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:text="Submit"
+        android:layout_gravity="center_horizontal"
+        android:onClick=""/>
+
+</LinearLayout>

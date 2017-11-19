@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "14605820997",
+    "firebase_url": "https://happy-times-77f18.firebaseio.com",
+    "project_id": "happy-times-77f18",
+    "storage_bucket": "happy-times-77f18.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:14605820997:android:361564d9716927bb",
+        "android_client_info": {
+          "package_name": "com.example.hilary.happytimesapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "14605820997-b9397c3ib0j8vvebqqqcu5apso3nlb3r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjH0O-Sv0wYUx-_8w14x3lB-P1EXTBmiE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="20dp"
+    tools:context="com.example.hilary.happytimesapp.Administrator">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Please and in the new events and products"
+        android:textSize="20dp"
+        android:paddingTop="30dp"
+        android:layout_gravity="center_horizontal"
+        android:textColor="@color/colorAccent"/>
+    <EditText
+        android:id="@+id/editText0"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:text="Happening place"
+        android:paddingTop="30dp"
+        android:paddingLeft="30dp"
+        />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:text="Add an event"
+        android:paddingTop="30dp"
+        android:paddingLeft="30dp"
+        />
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Add a type of drink"
+        android:paddingTop="30dp"
+        android:paddingLeft="30dp"
+        />
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:text="Add a type of food"
+        android:paddingTop="30dp"
+        android:paddingLeft="30dp"
+        />
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:text="Add new services"
+        android:paddingTop="30dp"
+        android:paddingLeft="30dp"
+        />
+    <Button
+        android:id="@+id/button1"
+        android:paddingTop="20dp"
+        android:layout_width="100dp"
+        android:layout_height="70dp"
+        android:text="Submit"
+        android:layout_gravity="center_horizontal"
+        android:onClick=""/>
+
+</LinearLayout>
